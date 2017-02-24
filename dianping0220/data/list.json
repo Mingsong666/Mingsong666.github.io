@@ -1,0 +1,275 @@
+[{
+    "shopPicture": "https://qcloud.dpfile.com/pc/rWnsP_sr86479E_IL6y2brQrBc352WVMat-CiIdJaYt5A1dtNM723PBv4iYRCNuI_Es9AvUr0sesLal2G0zjJA.jpg",
+    "shopName": "利宝阁",
+    "isPromo": true,
+    "isHui": true,
+    "isWai": false,
+    "istuan": false,
+    "star": 4.5,
+    "price": 146,
+    "address": "市中心区",
+    "type": "粤菜馆",
+    "tuan": [{
+        "type": 1,
+        "title": "70代100元"
+    }, {
+        "type": 2,
+        "title": "660元 大寶果木烤鸭欢聚"
+    }],
+        "district": 1103,
+        "metro": 2101
+},{
+    "shopPicture": "https://p0.meituan.net/msmerchant/2e181cf7e7c59c18463a55a5eb4deb7e6055672.jpg%40120w_120h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20",
+    "shopName": "缪氏川菜(九方店)",
+    "isPromo": false,
+    "isHui": true,
+    "isWai": true,
+    "istuan": false,
+    "star": 4.5,
+    "price": 146,
+    "address": "民治",
+    "type": "川菜/家常菜",
+    "tuan": [{
+        "type": 1,
+        "title": "85代100元"
+    }, {
+        "type": 2,
+        "title": "191元 4人餐"
+    }],
+        "district": 1203,
+        "metro": 2102
+}, {
+    "shopPicture": "https://p1.meituan.net/poi/b0e3f9b670e83b999cc168dd30c9a8e455296.jpg%40120w_120h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20",
+    "shopName": "汕头八合里海记牛肉店(海德店)",
+    "isPromo": false,
+    "isHui": true,
+    "isWai": false,
+    "istuan": false,
+    "star": 5,
+    "price": 84,
+    "address": "南油",
+    "type": "牛肉火锅",
+    "tuan": [{
+        "type": 1,
+        "title": "88代100元"
+    }, {
+        "type": 2,
+        "title": "188元 梦幻诛仙萌食双餐"
+    }],
+        "district": 1303,
+        "metro": 2103
+}, {
+    "shopPicture": "https://p0.meituan.net/ugcpic/2780b97fbd5eead60ad72dc060456210%40120w_120h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20",
+    "shopName": "汕头八合里海记牛肉店(南头店)",
+    "isPromo": true,
+    "isHui": true,
+    "isWai": true,
+    "istuan": false,
+    "star": 3,
+    "price": 85,
+    "address": "南头",
+    "type": "牛肉火锅",
+    "tuan": [{
+        "type": 1,
+        "title": "88代100元"
+    }, {
+        "type": 2,
+        "title": "188元 梦幻诛仙萌食双餐"
+    }],
+        "district": 1403,
+        "metro": 2201
+}, 
+
+
+{
+    "shopPicture": "https://p0.meituan.net/mogu/7bac5e64c9e2f63d924e09a1a28c4de536073.jpg%40120w_120h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20",
+    "shopName": "仙庙烧鸡",
+    "isPromo": false,
+    "isHui": false,
+    "isWai": true,
+    "istuan": false,
+    "star": 3.5,
+    "price": 32,
+    "address": "西乡",
+    "type": "粤菜",
+    "tuan": [{
+        "type": 1,
+        "title": "168代213元"
+    }, {
+        "type": 2,
+        "title": "88元 2-3人餐"
+    }],
+        "district": 1401,
+        "metro": 2202
+}, {
+    "shopPicture": "https://qcloud.dpfile.com/pc/6cbZxjUStByH4QFP4GTGya0_n3Pie7nI3VcnFCQJYeF-FuZ3w5EpWFPvAI_GsRmd_Es9AvUr0sesLal2G0zjJA.jpg",
+    "shopName": "老妈柴火(港隆城店)",
+    "isPromo": false,
+    "isHui": false,
+    "isWai": false,
+    "istuan": false,
+    "star": 3,
+    "price": 46,
+    "address": "西乡",
+    "type": "湘菜",
+    "tuan": [{
+        "type": 1,
+        "title": "75代100元"
+    }, {
+        "type": 2,
+        "title": "298元 超值10人餐"
+    }],
+        "district": 1401,
+        "metro": 2203
+}, {
+    "shopPicture": "https://p1.meituan.net/deal/9b131649619504f88edb7c8359418cf631709.jpg%40120w_120h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20",
+    "shopName": "阿具客家土菜(丰和楼店)",
+    "isPromo": false,
+    "isHui": true,
+    "isWai": false,
+    "istuan": false,
+    "star": 3.5,
+    "price": 75,
+    "address": "宝体",
+    "type": "客家菜",
+    "tuan": [{
+        "type": 1,
+        "title": "88代100元"
+    }, {
+        "type": 2,
+        "title": "158元 3-4人套餐"
+    }],
+        "district": 1402,
+        "metro": 2301
+}, {
+    "shopPicture": "https://p1.meituan.net/dpmerchantalbum/d4c9cc62509f36651de74adb6641d2f0562782.jpg%40120w_120h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20",
+    "shopName": "桃李溪中式概念餐厅(购物公园店)",
+    "isPromo": false,
+    "isHui": true,
+    "isWai": true,
+    "istuan": false,
+    "star": 3.5,
+    "price": 65,
+    "address": "市中心区",
+    "type": "创意菜",
+    "tuan": [{
+        "type": 2,
+        "title": "138元 创意双人套餐"
+    }],
+        "district": 1101,
+        "metro": 2302
+}, {
+    "shopPicture": "https://p0.meituan.net/apiback/bf44d81d7425daa8d8a2670ededd2c4c54914.jpg%40120w_120h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20",
+    "shopName": "小巷神厨(神厨川菜华强店)",
+    "isPromo": false,
+    "isHui": true,
+    "isWai": false,
+    "istuan": false,
+    "star": 4,
+    "price": 53,
+    "address": "华强北",
+    "type": "川菜/家常菜",
+    "tuan": [{
+        "type": 1,
+        "title": "92代100元"
+    }, {
+        "type": 2,
+        "title": "138元 三人套餐A"
+    }],
+        "district": 1102,
+        "metro": 2303
+},
+
+
+ {
+    "shopPicture": "https://qcloud.dpfile.com/pc/QNcXPQDQMyki0UXe-_U5GgaWdGpYxhx7YNCJE523gJSnaWB5pQE-0MENC6SaYjHl_Es9AvUr0sesLal2G0zjJA.jpg",
+    "shopName": "金潮轩海鲜酒楼",
+    "isPromo": false,
+    "isHui": true,
+    "isWai": false,
+    "istuan": false,
+    "star": 3,
+    "price": 71,
+    "address": "白石洲",
+    "type": "海鲜",
+    "tuan": [{
+        "type": 2,
+        "title": "198元 金潮轩海鲜酒楼4人餐"
+    }],
+        "district": 1201,
+        "metro": 2401
+}, {
+    "shopPicture": "https://qcloud.dpfile.com/pc/HMUgmMPUEsOx6KrQPK_LW2PNirVbQ9gVoKNjK9lXkiQsZlxvEhjgdNXYWzeu-SYp_Es9AvUr0sesLal2G0zjJA.jpg",
+    "shopName": "茶思饭香卤水海鲜小龙虾(TCL店)",
+    "isPromo": false,
+    "isHui": true,
+    "isWai": false,
+    "istuan": true,
+    "star": 3,
+    "price": 23,
+    "address": "华侨城",
+    "type": "小龙虾",
+    "tuan": [{
+        "type": 2,
+        "title": "185代200元"
+    }],
+        "district": 1202,
+        "metro": 2402
+}, {
+    "shopPicture": "https://qcloud.dpfile.com/pc/ybjmlTx8eYKrkL3o-KXBEpAAuIUeubqI9YrW7YpV0qVXdUmKOIsedTK6ju9gk4wi_Es9AvUr0sesLal2G0zjJA.jpg",
+    "shopName": "Life&Kitchen美式餐厅(蛇口6号花园店)",
+    "isPromo": false,
+    "isHui": true,
+    "isWai": false,
+    "istuan": false,
+    "star": 4.5,
+    "price": 81,
+    "address": "蛇口",
+    "type": "西餐",
+    "tuan": [{
+        "type": 1,
+        "title": "88代100元"
+    }, {
+        "type": 2,
+        "title": "29元 蛋糕下午茶套餐"
+    }],
+        "district": 1301,
+        "metro": 2403
+}, {
+    "shopPicture": "https://p1.meituan.net/msmerchant/3908f515c5bafc74aef7974889230e2f288334.jpg%40120w_120h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20",
+    "shopName": "MOLINE茉宁花艺主题生活馆",
+    "isPromo": false,
+    "isHui": false,
+    "isWai": false,
+    "istuan": false,
+    "star": 3.5,
+    "price": 198,
+    "address": "蛇口",
+    "type": "西餐",
+    "tuan": [{
+        "type": 2,
+        "title": "499元 双人套餐"
+    }],
+        "district": 1302,
+        "metro": 2501
+}, {
+    "shopPicture": "https://p0.meituan.net/merchantpic/e76a579e799b46384ed2b1de48618448111609.jpg%40120w_120h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20",
+    "shopName": "Lab研Br",
+    "isPromo": false,
+    "isHui": true,
+    "isWai": false,
+    "istuan": false,
+    "star": 4,
+    "price": 108,
+    "address": "华侨城",
+    "type": "创意菜",
+    "tuan": [{
+        "type": 1,
+        "title": "89代100元"
+    },{
+        "type": 2,
+        "title": "19.9元 开业钜惠套餐"
+    }],
+        "district": 1103,
+        "metro": 2502
+}]

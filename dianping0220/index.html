@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>深圳美食,深圳餐厅餐饮,深圳团购,深圳生活,优惠券-大众点评网</title>
+	<link rel="icon" href="https://www.dpfile.com/s/res/favicon.5ff777c11d7833e57e01c9d192b7e427.ico">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<header>
+		<div class="minHeader">
+			<a href="#" class="back">
+			</a>
+			<a href="#" class="search">
+			</a>
+			<div class="table">
+				<div>
+					<a class="shop" href="#">商户</a>
+					<a class="buy" href="#">闪惠团购</a>
+				</div>
+			</div>
+		</div>
+		<p></p>
+	</header>
+	<section class="sec">
+		<div class="menu" id="menu">
+			<p>
+				<a href="#" @click="clickAll" id="all">全部商区<span></span>
+				</a>
+			</p>
+			<p>
+				<a href="#" class="centerBoreder">全部美食<span></span>
+				</a>
+			</p>
+			<p>
+				<a href="#" >智能排序<span></span>
+				</a>
+			</p>
+			<div class="clear"></div>
+
+	<div class="allDistrict displaynone" id="allDistrict">
+		<div class="districtMetro">
+			<a href="#" class="slectStyle district" @click="clickDistrict">商区</a>
+			<a href="#" class="metro" @click="clickMetro">地铁</a>
+			<div class="clear"></div>
+			<div class="districtMetroList">
+				<ul class="bigList">
+					<li v-for="big in ListBig" @click="clickBig" :title="big.id">{{big.name}}</li>
+				</ul>
+				<div class="minList">
+					<div>
+						<span v-for="min in ListBigSlect[0].childs" @click="clickMin" :title="min.id">{{min.name}}</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footerBack" @click="clickFooter">
+		</div>
+	</div>
+
+		</div>
+		<div id="shopList">
+			<ul>
+				<li v-for="shop in shopLists">
+					<div class="shopTitle">
+						<a class="shopLink" href="#">
+							<img class="picture" :src="shop.shopPicture">
+						</a>
+						<div class="shopDetails">
+							<div class="title">
+								<h1>{{ shop.shopName }}</h1> 
+								<span v-if="shop.isPromo" class="promo"></span>
+								<span v-if="shop.isHui" class="hui"></span>
+								<span v-if="shop.isWai" class="wai"></span> 
+								<span v-if="shop.isTuan" class="tuan"></span>
+							</div>
+							<div class="price">
+								<span :class="shop.star | starClass"></span>
+								<span>¥{{ shop.price }}/人</span>
+							</div>
+							<p>
+								<span>{{ shop.address }}</span>
+								<span>{{ shop.type }}</span>
+								<span v-show="shop.isAd" class="ad">广告</span>
+							</p>
+						</div>
+					</div>
+					<div class="offer">
+						<div v-for="groupType in shop.tuan">
+							<div :class="tuan[groupType.type]">
+								<span></span>
+								<p>{{ groupType.title }}</p>
+								<a href="#"></a>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<script src="js/vue.js"></script>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>
