@@ -1,0 +1,625 @@
+/*
+* @Author: Administrator
+* @Date:   2016-12-19 13:40:32
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-12-22 14:41:29
+*/
+html{
+	font-family: PingFangSC-Light,'helvetica neue','hiragino sans gb',arial,'microsoft yahei ui','microsoft yahei',simsun,sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* 页头 */
+header{
+	background: url('../images/background/header.jpg') center no-repeat;
+	background-size: auto 375px;
+	height: 375px;
+	width: 100%;
+	z-index: 99;
+	color: #fff;
+	text-align: center;
+	background-color: rgb(10, 109, 238);
+	position: relative;
+}
+
+header .navgation{
+	height: 55px;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+header .navgation .logo{
+	float: left;
+}
+
+header .navgation .logo img{
+	display: block;
+	height: 25px;
+	width: 94px;
+	margin-top: 10px;
+}
+
+header .navgation .search{
+	float: right;
+	display: inline-block;
+	width: 41px;
+	height: 44px;
+	z-index: 100;
+	background: url('../images/icon/search.png') center no-repeat;
+	background-size: 22px 22px;
+}
+
+header .navgation .menu-button{
+	float: right;
+	display: inline-block;
+	width: 39px;
+	height: 44px;
+	z-index: 100;
+	background: url('../images/icon/right-top-menu.png') center no-repeat;
+	background-size: 27px 22px;
+}
+
+header h3{
+	font-size: 24px;
+	margin-bottom: 8px;
+	margin-top: 220px;
+}
+
+header p{
+	font-size: 14px;
+	line-height: 22px;
+}
+
+header .button-js{
+	height: 21px;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -55px;
+}
+
+header .button-js a{
+	display: inline-block;
+	width: 15px;
+	height: 5px;
+	background-color: #659dee;
+	margin-right: 4px;
+}
+
+header .button-js .selected{
+	background-color: #fff;
+}
+
+a{
+	text-decoration: none;
+}
+
+/* 菜单导航 */
+nav{
+	background-color: #f2f2f5;
+	padding: 50px 20px;
+}
+
+h2{
+    color: #333;
+    font-size: 26px;	
+	text-align: center;	
+	line-height: 36px;
+	margin-bottom: 10px;
+}
+
+nav h2{
+	padding: 0 10px;
+}
+
+h5{
+	font-size: 16px;
+	line-height: 24px;
+	color: #333;
+}
+
+nav h5{
+	padding: 0 10px;
+	margin-bottom: 29px;
+}
+
+nav .menu{
+	background-color: #fff;
+	margin-top: 10px;
+}
+
+nav .menu .menus{
+	background: url('../images/icon/menu-1.png') left no-repeat;
+	display: block;
+	margin: 0 15px;
+	padding: 20px 0;
+}
+
+nav .menu .net{
+	background: url('../images/icon/menu-2.png') left no-repeat;
+}
+
+nav .menu .storage{
+	background: url('../images/icon/menu-3.png') left no-repeat;
+}
+
+nav .menu .data-base{
+	background: url('../images/icon/menu-4.png') left no-repeat;
+}
+
+nav .menu .safe{
+	background: url('../images/icon/menu-5.png') left no-repeat;
+}
+
+nav .menu .control{
+	background: url('../images/icon/menu-6.png') left no-repeat;
+}
+
+nav .menu .survice{
+	background: url('../images/icon/menu-7.png') left no-repeat;
+}
+
+nav .menu .move{
+	background: url('../images/icon/menu-8.png') left no-repeat;
+}
+
+nav .menu .visual{
+	background: url('../images/icon/menu-9.png') left no-repeat;
+}
+
+nav .menu .big-data{
+	background: url('../images/icon/menu-10.png') left no-repeat;
+}
+
+nav .menu h3{
+	display: inline-block;
+	color: #000;
+	margin-left: 42px;
+	font-size: 18px;
+	line-height: 32px;
+}
+
+nav .menus span{
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	border-left: 2px solid #b0b0b0;
+	border-bottom: 2px solid #b0b0b0;
+	-webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    float: right;
+    margin-top: 8px;
+	margin-right: 20px; 
+}
+
+nav .selected .menus{
+	border-bottom: 1px solid #d9d9d9;
+}
+
+nav .selected .list{
+	display: block;
+	padding: 5px 20px 8px;
+}
+
+nav .selected .list h4{
+	color: #000;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+nav .selected .list p{
+	font-size: 14px;
+    color: #666;
+    line-height: 21px;
+    padding: 0;
+    margin: 0;
+    margin-right: 97px;
+}
+
+nav .selected .list span{
+	float: right;
+	display: block;
+	font-size: 14px;
+    color: #ff7200;
+    line-height: 19px;
+}
+
+nav .selected .menus span{
+	border-right: 2px solid #b0b0b0;
+	border-top: 2px solid #b0b0b0;
+	border-left: none;
+	border-bottom: none;
+}
+
+/* 业务特点及介绍 */
+section{
+	width: 100%;
+}
+
+/* 在云端继续你的业务 */
+.cloud-business{
+	background: url('../images/background/section-1.jpg') center no-repeat;
+	background-size: auto 736px;
+	background-size: cover;
+	background-position: 50% -27px;
+	height: 736px;
+	width: 100%;
+}
+
+.cloud-business h2{
+	font-weight: 400;
+	color: #fff;
+	padding: 50px 30px 0px;
+}
+
+.cloud-business h5{
+	color: #fff;
+	margin: 0 30px 30px;
+}
+
+.cloud-business .business{
+	padding-left: 30px;
+}
+
+.cloud-business .business ul{
+	float: left;
+	width: 80px;
+}
+
+.cloud-business .business ul .selected{
+	background-color: #2277da;
+}
+
+.cloud-business .business ul li a{
+	color: #fff;
+	font-size: 16px;
+	display: block;
+	line-height: 30px;
+	height: 30px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.cloud-business .business .friendly-logo{
+	float: right;
+	width: 245px;
+	margin-right: 14px;
+}
+
+.cloud-business .business .friendly-logo div{
+	display: block;
+}
+
+.cloud-business .business .friendly-logo div a img{
+	display: inline-block;
+	width: 97px;
+	height: 97px;
+}
+
+.cloud-business .business .friendly-logo div a{
+	width: 97px;
+	height: 97px;
+	background-color: #fff;
+    background: rgba(255,255,255,.3);
+    display: inline-block;
+    margin-left: 14px;
+    margin-bottom: 19px;
+    border: 1px solid rgba(255,255,255,.2);
+}
+
+.cloud-business .business .friendly-logo .more{
+	border: 1px solid rgba(255,255,255,.2);
+	margin: 0 14px;
+	height: 45px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.cloud-business .business .friendly-logo .more a{
+	display: block;
+	background: none;
+	border: none;
+	font-size: 18px;
+	line-height: 45px;
+	margin: 0 auto;
+	color: #fff;
+}
+
+.clear{
+	height: 50px;
+	clear: both;
+}
+
+/* 你的成功可以覆盖全球 */
+section .all-globe{
+	background: url('../images/background/section-2.png') center no-repeat;
+	background-size: contain;
+    background-position: 0 100px;
+    margin-bottom: 20px;
+}
+
+section .all-globe h2{
+	color: #333;
+	margin: 0 30px 10px;
+}
+
+section .all-globe h5{
+	color: #333;
+	margin: 0 30px 30px;
+}
+
+section .all-globe div a{
+	display: block;
+	border: 1px solid #333;
+    color: #333;
+	width: 220px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 366px;
+}
+
+section .all-globe .fast{
+	padding: 0 25px;
+	height: 96px;
+}
+
+section .all-globe .fast .number{
+	display: inline-block;
+	width: 94px;
+	height: 96px;
+	margin: 0 5px;
+}
+
+section .all-globe .fast .number1{
+	background: url('../images/background/number-1.png') top no-repeat;
+	background-size: 94px auto;
+}
+
+section .all-globe .fast .number2{
+	background: url('../images/background/number-2.png') top no-repeat;
+	background-size: 94px auto;
+}
+
+section .all-globe .fast .number3{
+	background: url('../images/background/number-3.png') top no-repeat;
+	background-size: 94px auto;
+}
+
+/* 为你提供安全合规的云计算服务 */
+section .defense{
+	background: url('../images/background/section-3.jpg') center no-repeat;
+	background-size: auto 130px;
+	height: 130px;
+}
+
+section .defense h4{
+	padding-top: 5px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	line-height: 65px;
+}
+
+section .defense p{
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	font-family: qcloud-num-thin,'helvetica neue','hiragino sans gb',tahoma,'microsoft yahei ui','microsoft yahei',simsun,sans-serif;
+}
+
+section .defense p span{
+	font-size: 24px;
+	letter-spacing: 7px;
+	font-weight: 200;
+}
+
+section .security{
+	padding: 50px 20px 24px;
+}
+
+section .security h2{
+	padding: 0 10px;
+}
+
+section .security h5{
+	padding: 0 10px;
+	margin-bottom: 40px;
+}
+
+section .security-logo{
+	display: table;
+	text-align: center;
+	width: 100%;
+}
+
+section .security-logo .table-row{
+	display: table-row;
+	height: 156px;
+}
+
+section .security-logo .table-row .table-cell{
+	display: table-cell;
+	padding: 0 10px;
+	width: 25%;
+}
+
+section .security-logo img{
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+}
+
+section .security-logo .table-row .table-cell p{
+	font-size: 14px;
+	color: #333;
+	margin-top: 10px;
+	margin-bottom:5px;
+	width: 64px;
+	line-height: 16px;
+	margin: 0 auto;
+}
+
+/* 免费体验 */
+section .free{
+	background: url('../images/background/section-free.jpg') center top no-repeat;
+	padding: 45px 30px;
+	height: 200px;
+	background-size: auto 290px;
+	background-size:cover;
+}
+
+section .free h2{
+	color: #fff;
+	line-height: 35px;
+}
+
+section .free h5{
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+section .free div a{
+	display: block;
+	font-size: 18px;
+	color: #fff;
+	width: 220px;
+	height: 45px;
+	border: 1px solid #fff;
+	text-align: center;
+	line-height: 45px;
+	margin: 0 auto;
+}
+
+/* 热门动态 */
+section .dynamic{
+	padding: 50px 30px 45px;
+}
+
+section .dynamic h2{
+	margin-bottom: 20px;
+}
+
+section .dynamic ul{
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+section .dynamic ul li{
+	display: inline-block;
+}
+
+section .dynamic ul li a{
+	display: block;
+	font-size: 14px;
+	color: #333;
+	line-height: 16px;
+	padding-bottom: 5px;
+	margin-right: 12px;
+}
+
+section .dynamic ul li .selected{
+	color: #2277da;
+    border-bottom: 2px solid #2277da;
+}
+
+section .dynamic p a{
+	font-size: 14px;
+	color: #333;
+	line-height: 35px;
+}
+
+section .dynamic p a span{
+	margin: 0 10px;
+}
+
+section .dynamic .search-all{
+	margin-top: 15px;
+	height: 19px;
+}
+
+section .dynamic .search-all a{
+	font-size: 14px;
+    color: #2277da;
+    line-height: 19px;
+}
+
+/* 长期活动 */
+section .activity{
+	padding: 0 30px 60px;
+}
+
+section .activity h2{
+	margin-bottom: 20px;
+}
+
+section .activity a img{
+	display: block;
+	height: 108px;
+	width: 315px;
+	margin: 0 auto;
+}
+
+/* 页脚 */
+footer{
+	background: #2e3033;
+    padding: 30px 25px 35px;
+}
+
+footer .footer-menus{
+	padding-bottom: 25px;
+}
+
+footer .footer-menus p{
+	color: #fff;
+	padding-left: 10px;
+	font-size: 14px;
+	line-height: 40px;
+	border-bottom: 1px solid #393c40;
+	text-align: left;
+}
+
+footer .footer-menus span{
+	display: inline-block;
+	height: 5px;
+	width: 5px;
+	border-left: 2px solid #b0b0b0;
+	border-bottom: 2px solid #b0b0b0;
+	-webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    float: right;
+    margin-top: 15px;
+}
+
+footer .phone{
+	margin-bottom: 25px;
+}
+
+footer .phone a{
+	display: block;
+	width: 325px
+	height: 42px;
+	font-size: 14px;
+    color: #ccc;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    line-height: 40px;
+    text-align: center;
+}
+
+footer p{
+	text-align: center;
+	font-size: 12px;
+	line-height: 20px;
+	color: #ccc;
+}
+
+footer .where{
+	margin-top: 10px;
+	font-size: 14px;
+	line-height: 16px;
+}
