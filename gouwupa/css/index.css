@@ -1,0 +1,320 @@
+/*
+* @Author: Administrator
+* @Date:   2016-12-14 14:21:59
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-12-14 20:35:34
+*/
+
+.body{
+	font-family: PingFangSC-Regular,'Helvetica Neue','Hiragino Sans GB',"Microsoft YaHei",Helvetica,"\5B8B\4F53",sans-serif;
+}
+
+/* 海报 */
+header{
+	background: url('../images/banner/poster.png') center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 0;
+    padding-bottom: 68.5%;
+}
+
+/* 人数统计 */
+.user{
+	display: table;
+	height: 48px;
+	background-color: #230a35;
+	width: 100%;
+}
+
+.user div{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.number{
+	padding-left:18px;
+	text-align: left;
+}
+
+.number span{
+	color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+    display: inline-block;
+    width: 16px;
+    border: 1px solid #81738a;
+    text-align: center;
+}
+
+.number .comma{
+	border: none;
+	width: 0;
+}
+
+.number p{
+	display: inline-block;
+	color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+}
+
+.prize{
+	padding-right:18px;
+	text-align: right;
+	color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.prize p{
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.prize img{
+	width: 6px;
+}
+
+/* 主推商家 */
+.seller{
+	background-color: #464056;
+    padding: 1.2rem;
+    padding-right: 0;
+    overflow-x: scroll;
+    display: -webkit-box;
+}
+
+.seller1, .seller2, .seller3, .seller4{
+	display: block;
+	width: 86.5%;
+    height: 0;
+    padding-bottom: 40.5%;
+    position: relative;
+}
+
+.seller p{
+	font-size: 0.9rem;
+    border: 2px solid #ff5ba4;
+    color: #ff5ba4;
+    font-weight: bold;
+    width: 38%;
+    height: 2.2rem;
+    line-height: 1.9rem;
+    top: 63%;
+    left: 30.5%;
+    border-radius: 5rem;
+    text-align: center;
+    position: absolute;
+    top: 63%;
+    left: 30.5%;
+}
+
+.seller1{
+	background: url('../images/banner/banner1.png') center no-repeat;
+	background-size: cover;
+}
+
+.seller2{
+	background: url('../images/banner/banner2.png') center no-repeat;
+	background-size: cover;
+	margin-left: 12px;
+}
+
+.seller3{
+	background: url('../images/banner/banner3.jpg') center no-repeat;
+	background-size: cover;
+	margin-left: 12px;
+}
+
+.seller4{
+	background: url('../images/banner/banner4.jpg') center no-repeat;
+	background-size: cover;
+	margin-left: 12px;
+}
+
+/* 商品菜单 */
+.menu{
+	background-color: #000;
+    height: 60px;
+    display: table;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.menu a{
+	display: table-cell;
+    vertical-align: middle;
+    width: 25%;
+    text-decoration: none;
+}
+
+.menu a div{
+    border-right: 1px solid #585858;
+}
+
+.menu a h4{
+	color: #dedede;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 15px;
+}
+
+.menu a h5{
+	margin-top: 2.4px;
+    line-height: 14.4px;
+    color: rgba(141, 141, 141, 0.7);
+    font-size: 12px;
+    font-family: PingFangSC-Regular,'Helvetica Neue','Hiragino Sans GB',"Microsoft YaHei",Helvetica,"\5B8B\4F53",sans-serif;
+}
+
+.menu .select h4, .menu .select h5{
+	color: #d8b676;
+}
+
+.menu .select{	
+	border-bottom: 4.8px solid #d8b676;
+}
+
+/* 商品分类 */
+.goods-list{
+	height: 480px;
+	padding: 12px 14.4px;
+	background: #eaeaea;
+    font-family: PingFangSC-Regular,'Helvetica Neue','Hiragino Sans GB',"Microsoft YaHei",Helvetica,"\5B8B\4F53",sans-serif;
+}
+
+.goods{
+	display: table;
+	height: 81.6px;
+	width: 100%;
+	margin-bottom: 12px;
+}
+
+.goods div{
+	display: table-cell;
+}
+
+.logo{
+	background: url('../images/banner/goods1.png') center no-repeat;
+	width: 108px;
+	background-size: cover;
+	position: relative;
+}
+
+.logo img{
+	width: 55.19px;
+	border-radius: 4.6rem;
+	position: absolute;
+	top: 12px;
+	left: 23px;
+}
+
+.oneRob{
+	background: url('../images/icon/background-right.png') right no-repeat;
+	background-size: auto 81.6px;
+	width: 32.64px;
+	position: relative;
+}
+
+.detail{
+	background-color: #f5f5f5;
+	border-top: 1px solid #dbd7cb;
+	border-bottom: 1px solid #dbd7cb;
+	padding-top: 9px;
+	padding-left: 12px;
+}
+
+.detail h5{
+    font-size: 16px;
+	line-height: 22.8px;
+    height: 22.8px;
+    color: #333;
+    font-weight: bold;
+}
+
+.detail p{
+    font-size: 13px;
+	line-height: 18px;
+    height: 18px;
+    color: #333;
+}
+
+.detail span{
+    font-size: 13px;
+	line-height: 22.8px;
+    height: 22.8px;
+    color: #666;
+}
+
+.oneRob img{
+	width: 84px;
+	position: absolute;
+	top: 25px;
+	right: 11px;
+}
+
+.logo2{
+	background: url('../images/banner/goods2.png') center no-repeat;
+	width: 108px;
+	background-size: cover;
+	position: relative;
+}
+
+.logo3{
+	background: url('../images/banner/goods3.png') center no-repeat;
+	width: 108px;
+	background-size: cover;
+	position: relative;
+}
+
+.logo4{
+	background: url('../images/banner/goods4.png') center no-repeat;
+	width: 108px;
+	background-size: cover;
+	position: relative;
+}
+
+.logo5{
+	background: url('../images/banner/goods5.png') center no-repeat;
+	width: 108px;
+	background-size: cover;
+	position: relative;
+}
+
+/* 活动规则 */
+footer{
+	padding: 25.2px 18px 48px;
+    background-color: rgb(33, 10, 53);
+}
+
+footer div img{
+	display: block;
+	height: 33.59px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+footer p{
+    font-size: 12px;
+	line-height: 26.4px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+footer .go{	
+    margin-top: 3rem;
+    width: 45%;
+    margin-left: 26%;
+    height: 3.2rem;
+    line-height: 3.2rem;
+    font-size: 1.0rem;
+    font-weight: bold;
+    border-radius: 5rem;
+    border: 1px solid #fa5395;
+    color: #fa5395;
+    text-align: center;
+}
