@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>肖明松的github</title>
+        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <style type="text/css">
+            html,body{
+                margin: 0;
+                width: 100%;
+                height: 100%;
+                font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Roboto,Arial,PingFang SC,Hiragino Sans GB,Microsoft Yahei,Microsoft Jhenghei,sans-serif;
+            }
+            
+            body{
+                background: url('bg.png') center no-repeat;
+                background-size: cover;
+                opacity: 0.95;
+            }
+
+            header{
+                background: #e0e0e0;
+                padding-top: 20px;
+            }
+            
+            header h1{
+                float: left;
+                height: 100px;
+                margin: 0;
+                line-height: 100px;
+                margin-left: 10%;
+                cursor: pointer;
+            }
+
+            header img{
+                width: 80px;
+                height: 100px;
+                border-radius: 60%;
+                float: right;
+                margin-right: 20%;
+                background: url('me1.jpg') center no-repeat;
+                background-size: 80px 100px;
+            }
+
+            header img:hover{
+                background: url('me2.png') center no-repeat;
+                background-size: 80px 100px;
+            }
+
+            .clear{
+                clear: both;
+            }
+            
+            .nav{
+                display: table;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                margin-top: 20px;
+            }
+
+            .nav li{
+                display: table-cell;
+                width: 25%;
+                list-style: none;
+                text-align: center;
+                height: 30px;
+                line-height: 30px;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+
+            .nav li:hover{
+                background-color: #171717;
+                color: #e0e0e0;
+            }
+
+            #info, #works, #want, #contact{
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+
+            #contact p:last-child{
+                padding-left: 10%;
+                height: 180px;
+                line-height: 180px;
+                background: url('contact.png') center no-repeat;
+                background-size: 150px 180px;
+            }
+            #works, #want, #contact{
+                display: none;
+            }
+            #info div h5{
+                font-size: 16px;
+            }
+            .exp a{
+                display: block;
+                text-decoration: none;
+                margin: 8px 0;
+                color: #2F4F4F;
+            }
+            .exp a:hover{
+                color: #9400D3;
+                text-decoration: underline;
+            }
+            .circle{
+                width: 20px; 
+                height: 20px;
+                line-height: 16px;
+                font-size: 14px;
+                padding: 2px;
+                border: 1px solid black;
+                border-radius: 50%;
+                opacity: 0.95;
+                animation: css4 1s linear infinite alternate;
+                left: 50%;
+                display: inline-block;
+                margin-left: 50%;
+            }
+
+            @keyframes css4{
+                0%   {width: 20px; 
+                height: 20px;
+                line-height: 16px;
+                font-size: 14px;
+                padding: 2px;}
+                100% {width: 32px; 
+                height: 32px;
+                line-height: 30px;
+                font-size: 25px;
+                padding: 4px;}
+            }
+
+            .line{
+                display: inline-block;
+                width: 25px;
+                border-top: 1px solid black;
+                transform: rotate(13deg);
+                margin-left: -2px;
+            }
+        </style>
+    </head>
+    <body>
+    	<header>
+    		<h1>个人简历</h1>
+            <img />
+            <div class="clear"></div>
+            <ul class="nav">
+                <li onclick="show('info')">个人资料<span></span></li>
+                <li onclick="show('works')">技能作品<span></span></li>
+                <li onclick="show('want')">经验求职<span></span></li>
+                <li onclick="show('contact')">联系我<span></span></li>
+            </ul>
+    	</header>
+        <section>
+            <div id="info">
+                <h4>信息资料</h4>
+                <div>
+                    <p>姓名：<span>肖明松</span></p>
+                    <p>年龄：<span>23</span></p>
+                    <p>毕业院校：<span>江西理工大学</span></p>
+                    <p>目前居住：<span>深圳宝安区</span></p>
+                    <h5>在深圳的人生如逆水行舟，不进则退！</h5>
+                </div>
+            </div>
+            <div id="works">
+                <h4>掌握技能</h4>
+                <div>
+                    <p>①对UI设计产品PSD文件、通过photoshop进行切图；div+css页面布局；</p>
+                    <p>②用JQuey编写JavaScript实现用户交互效果；</p>
+                    <p>③掌握Ajax读取后台数据，熟悉vue.js团队开发框架并有实践。</p>
+                    <p>④了解面向对象编程、闭包现象，熟悉H5和CSS3新特性</p>
+                </div>
+                <h4>作品展示</h4>
+                <div class="exp">
+                    <a href="https://Mingsong666.github.io/dianping0220">商家筛选（大众点评APP）</a>
+                    <a href="https://Mingsong666.github.io/calculator">计算器（iphone手机）</a>
+                    <a href="https://Mingsong666.github.io/mobike">摩拜单车（PC端）</a>
+                    <a href="https://Mingsong666.github.io/QCloud">腾讯云（移动端）</a>
+                    <a href="https://Mingsong666.github.io/gouwupa">购物趴（移动端）</a>
+                    <a href="https://Mingsong666.github.io/douban">豆瓣FM（PC端）</a>
+                    <a href="https://Mingsong666.github.io/Ping++">Ping++（移动端）</a>
+                </div>
+            </div>
+            <div id="want">
+                <h4>工作经验</h4>
+                <div>
+                    <p>深圳市星宇辉程科技有限公司（2016年11月 - 至今）</p>
+                    <p>工作职责：从美工手里拿到PSD设计稿，进行切图，完成html和css的页面布局</p>
+                </div>
+                <h4>求职意向</h4>
+                <div>
+                	<p>善于沟通和协作的我，虚心学习，关注前端领域的发展，喜欢并计划长期从事前端工作</p>
+                    <p>工作地点在深圳市即可，最好在宝安区、南山区、福田区</p>
+                </div>
+            </div>
+            <div id="contact">
+                <h4>联系方式</h4>
+                <div>
+                    <p>邮箱：<span>xmsnihao@qq.com</span></p>
+                    <p>手机号码：<span>18365403310</span></p>
+                    <p>加我微信：</p>
+                </div> 
+                <div class="search">
+                    <span class="circle">me</span><span class="line"></span>
+                </div>
+            </div>
+        </section>
+
+        <script>
+            function show(id){
+                document.getElementById('info').style.display = "none"; //隐藏
+                document.getElementById('works').style.display = "none"; 
+                document.getElementById('want').style.display = "none"; 
+                document.getElementById('contact').style.display = "none"; 
+                document.getElementById(id).style.display = "block";  //显示
+            }
+        </script>
+    </body>
+</html>
